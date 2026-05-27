@@ -334,9 +334,9 @@ footer { padding:2.5rem 0; border-top:1px solid var(--line); display:flex; justi
 <!-- 3. QUIÉN SOY -->
 <section id="quien">
   <span class="eyebrow">Quién guía</span>
-  <div class="quien-fotos">
-    <div class="q"><img src="amaranta.jpg" alt="Amaranta en el pinar"></div>
-    <div class="q"><img src="grupo.jpg" alt="Sesión de baño de bosque en El Espinar"></div>
+  <div class="quien-fotos" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;">
+    <div style="aspect-ratio:2/3;overflow:hidden;"><img src="amaranta.jpg" alt="Amaranta en el pinar" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;filter:saturate(0.82);"></div>
+    <div style="aspect-ratio:2/3;overflow:hidden;"><img src="grupo.jpg" alt="Sesión de baño de bosque en El Espinar" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;filter:saturate(0.82);"></div>
   </div>
   <h2 style="margin-bottom:0.2rem">Amaranta</h2>
   <p style="font-family:var(--sc);font-size:0.72rem;letter-spacing:2px;font-weight:600;color:var(--accent);margin-bottom:1.5rem">Guía certificada · Forest Therapy Hub</p>
@@ -415,9 +415,9 @@ footer { padding:2.5rem 0; border-top:1px solid var(--line); display:flex; justi
 <hr class="divider">
 
 <!-- 9. GALERÍA -->
-<div class="galeria">
-  <div class="g"><img id="galImg1" src="pinos.jpg" alt="Pinos de El Espinar contra el cielo azul"></div>
-  <div class="g"><img id="galImg2" src="arroyo.jpg" alt="Arroyo entre los pinos"></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:var(--gap) 0;">
+  <div style="aspect-ratio:2/3;overflow:hidden;"><img id="galImg1" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;filter:saturate(0.85);" src="pinos.jpg" alt="Pinos de El Espinar contra el cielo azul"></div>
+  <div style="aspect-ratio:2/3;overflow:hidden;"><img id="galImg2" style="width:100%;height:100%;object-fit:cover;object-position:center center;display:block;filter:saturate(0.85);" src="arroyo.jpg" alt="Arroyo entre los pinos"></div>
 </div>
 
 <!-- 10. EVENTOS NOCTURNOS -->
