@@ -299,7 +299,6 @@ footer { padding:2.5rem 0; border-top:1px solid var(--line); display:flex; justi
   <a href="#experiencia">La experiencia</a>
   <a href="#horarios">Horarios</a>
   <a href="#calendario">Calendario</a>
-  <a href="#estaciones" id="linkEstaciones">Las estaciones</a>
   <a href="#eventos" id="linkEventos" class="hidden">Próximas lunas</a>
   <a href="#practico">Lo práctico</a>
   <a href="#grupos">Grupos y parejas</a>
@@ -373,16 +372,16 @@ footer { padding:2.5rem 0; border-top:1px solid var(--line); display:flex; justi
   <span class="eyebrow">Cuándo venir</span>
   <h2>Horarios por estación</h2>
   <div id="horarios-dia">
-    <div class="horario-estacion"><span class="h-est">🌼 Primavera<small>Abril · Mayo · Junio</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 11:00 h</span><span class="h-hora">☀ Tarde · 18:00 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">🌞 Verano<small>Julio · Agosto</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 10:00 h</span><span class="h-hora">☀ Tarde · 19:00 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">🍂 Otoño<small>Septiembre · Octubre</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 11:00 h</span><span class="h-hora">☀ Tarde · 18:00 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">❄️ Invierno<small>Noviembre · Febrero</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 12:00 h</span><span class="h-hora">☀ Tarde · 16:00 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🌼 Primavera<small>Marzo · Abril · Mayo</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 11:00 h</span><span class="h-hora">☀ Tarde · 18:00 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🌞 Verano<small>Junio · Julio · Agosto</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 10:00 h</span><span class="h-hora">☀ Tarde · 19:00 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🍂 Otoño<small>Septiembre · Octubre · Noviembre</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 11:00 h</span><span class="h-hora">☀ Tarde · 18:00 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">❄️ Invierno<small>Diciembre · Enero · Febrero</small></span><div class="h-horas"><span class="h-hora">☀ Mañana · 12:00 h</span><span class="h-hora">☀ Tarde · 16:00 h</span></div></div>
   </div>
   <div id="horarios-noche" class="hidden">
-    <div class="horario-estacion"><span class="h-est">🌸 Primavera<small>Abril · Mayo · Junio</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 21:30 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">🌞 Verano<small>Julio · Agosto</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 22:30 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">🍂 Otoño<small>Septiembre · Octubre</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 20:00 h</span></div></div>
-    <div class="horario-estacion"><span class="h-est">❄️ Invierno<small>Noviembre · Febrero</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 18:30 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🌸 Primavera<small>Marzo · Abril · Mayo</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 21:30 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🌞 Verano<small>Junio · Julio · Agosto</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 22:30 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">🍂 Otoño<small>Septiembre · Octubre · Noviembre</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 20:00 h</span></div></div>
+    <div class="horario-estacion"><span class="h-est">❄️ Invierno<small>Diciembre · Enero · Febrero</small></span><div class="h-horas"><span class="h-hora">☽ Luna llena · 18:30 h</span></div></div>
     <div class="horario-estacion"><span class="h-est">⚡ 12 agosto<small>Eclipse + Perseidas</small></span><div class="h-horas"><span class="h-hora">🌞 · 18:00 h</span></div></div>
   </div>
 </section>
@@ -422,20 +421,6 @@ footer { padding:2.5rem 0; border-top:1px solid var(--line); display:flex; justi
 </section>
 
 <hr class="divider">
-
-<!-- 8. ESTACIONES -->
-<section id="estaciones">
-  <span class="eyebrow">A lo largo del año</span>
-  <h2>Las estaciones del bosque</h2>
-  <div class="estaciones-franja" id="estFranja">
-    <div class="est-item"><span class="est-icono">🌱</span><span class="est-nombre">Abril</span><span class="est-palabra">El despertar</span><div class="est-detalle"><p><strong>Flora:</strong> Pino silvestre soltando polen, piorno serrano, acebo.</p><p><strong>Fauna:</strong> Abubilla, cuco, pico picapinos.</p><p><strong>Medicinales:</strong> Tomillo salsero, diente de león.</p><em>El pinar se despereza después del invierno.</em></div></div>
-    <div class="est-item"><span class="est-icono">🌼</span><span class="est-nombre">Mayo</span><span class="est-palabra">El piorno</span><div class="est-detalle"><p><strong>Flora:</strong> Piorno en floración, escaramujo en flor.</p><p><strong>Fauna:</strong> Autillo, arrendajo, rabilargo ibérico.</p><p><strong>Medicinales:</strong> Rosa canina, tomillo salsero.</p><em>El piorno tiñe de amarillo los claros del pinar.</em></div></div>
-    <div class="est-item"><span class="est-icono">☀️</span><span class="est-nombre">Julio</span><span class="est-palabra">La sombra</span><div class="est-detalle"><p><strong>Flora:</strong> Pino silvestre en reposo, sombra densa.</p><p><strong>Fauna:</strong> Murciélagos, lagartos ocelados, buitre leonado.</p><p><strong>Medicinales:</strong> Resina de pino.</p><em>El calor aprieta fuera, pero bajo los pinos siempre hay sombra.</em></div></div>
-    <div class="est-item"><span class="est-icono">🍂</span><span class="est-nombre">Octubre</span><span class="est-palabra">Las setas</span><div class="est-detalle"><p><strong>Flora:</strong> Níscalo, boletus, roble melojo.</p><p><strong>Fauna:</strong> Ciervo (berrea), zorro.</p><p><strong>Medicinales:</strong> Diente de león, roble.</p><em>Los níscalos asoman bajo los pinos.</em></div></div>
-    <div class="est-item"><span class="est-icono">🍁</span><span class="est-nombre">Noviembre</span><span class="est-palabra">El melojo</span><div class="est-detalle"><p><strong>Flora:</strong> Roble melojo en su máximo esplendor, acebo con bayas.</p><p><strong>Fauna:</strong> Zorro, rabilargo, milano real.</p><p><strong>Medicinales:</strong> Escaramujo maduro.</p><em>El roble melojo se viste de fiesta antes de dormir.</em></div></div>
-    <div class="est-item"><span class="est-icono">❄️</span><span class="est-nombre">Enero</span><span class="est-palabra">El silencio</span><div class="est-detalle"><p><strong>Flora:</strong> Pino silvestre con escarcha o nieve, acebo.</p><p><strong>Fauna:</strong> Corzo, petirrojo, buitre leonado.</p><p><strong>Medicinales:</strong> Acebo (uso externo).</p><em>El invierno transforma el pinar. El silencio se vuelve denso.</em></div></div>
-  </div>
-</section>
 
 <!-- 9. GALERÍA -->
 <div class="galeria">
@@ -565,15 +550,6 @@ function cerrarMenu(){ menuBtn.classList.remove('open'); drawer.classList.remove
 menuBtn.addEventListener('click', function(){ drawer.classList.contains('open') ? cerrarMenu() : abrirMenu(); });
 overlay.addEventListener('click', cerrarMenu);
 drawer.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', cerrarMenu); });
-
-document.getElementById('estFranja').addEventListener('click', function(e){
-  var item = e.target.closest('.est-item');
-  if(!item) return;
-  var det = item.querySelector('.est-detalle');
-  var abierto = det.classList.contains('open');
-  document.querySelectorAll('.est-detalle.open').forEach(function(d){ d.classList.remove('open'); });
-  if(!abierto) det.classList.add('open');
-});
 
 var LUNAS = [[2026,6,30],[2026,7,29],[2026,8,28],[2026,9,26],[2026,10,25],[2026,11,24],[2026,12,24]];
 var LUNAS_NUEVAS = [[2026,6,15],[2026,7,14],[2026,8,12],[2026,9,11],[2026,10,11],[2026,11,9],[2026,12,9]];
@@ -770,9 +746,7 @@ function aplicarModo(modo){
   document.getElementById('testiContainer').innerHTML = th;
   document.getElementById('horarios-dia').classList.toggle('hidden',!esDia);
   document.getElementById('horarios-noche').classList.toggle('hidden',esDia);
-  document.getElementById('estaciones').classList.toggle('hidden',!esDia);
   document.getElementById('eventos').classList.toggle('hidden',esDia);
-  document.getElementById('linkEstaciones').classList.toggle('hidden',!esDia);
   document.getElementById('linkEventos').classList.toggle('hidden',esDia);
   document.getElementById('themeBtn').textContent = esDia ? '☽ Noche' : '☀ Día';
   if(!esDia) renderEventos();
